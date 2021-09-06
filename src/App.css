@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Glory:wght@300&display=swap');
+#head {
+  margin:0px;
+  padding-top: 2rem;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+.App {
+  padding:2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Glory', sans-serif;
+  color: white;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.name{
+  font-family: 'Acme', sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .imgs {
+    animation: img infinite 20s linear;
+  }
+}
