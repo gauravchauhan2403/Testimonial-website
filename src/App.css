@@ -27,9 +27,3 @@
 .name{
   font-family: 'Acme', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .imgs {
-    animation: img infinite 20s linear;
-  }
-}
