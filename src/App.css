@@ -22,6 +22,7 @@
 
 .img {
   border-radius: 50%;
+  border: solid white 2px;
 }
 
 .name{
